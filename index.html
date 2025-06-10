@@ -6,21 +6,20 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poiret+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/50422b9ab5.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
+
 <body>
   <header class="header">
     <nav id="navbar" class="nav-bar">
       <ul>
-    <li>
-    <a class="nav-link" href="#welcome-section">Welcome</a></li>
-     
-     <li>
+        <li>
         <a class="nav-link" href="#projects">Projects</a></li> 
         
      <li> 
-        <a class="nav-link" href="#Contact Me">Contact Me</a></li> 
+        <a class="nav-link" href="#Contact-Me">Contact Me</a></li> 
               </ul>
       </nav>
       
@@ -28,11 +27,13 @@
     <section id="welcome-section">
       <div class="intro">
         <div class="intro-text">
+          <div class="intro-text-border">
       <h1>Hello, I'm JP</h1>
       <p>Your next web designer</p>
       </div>
+      </div>
       <div class="profile-img">
-        <img src="https://i.imgur.com/sUjPBXn.jpeg">
+        <img src="https://i.imgur.com/VCydQnA.jpeg" alt="a cute pic of me and my dog" title="me & Zuko" width="550" height="688">
         </div>
         </div>
       </section>
@@ -40,24 +41,128 @@
       <section id="projects">
         <div class="projects">
           <div class="projects-text">
-              <p>Feel free to view some of my projects</p>
-              <p>This will say something as well</p>
+              <p class="quote">"Creativity is contagious, pass it on." - Albert Einstein </p>
+              <p class="text">Feel free to view some of my projects below</p>
             </div>
-            <div class="project-tile">
-              <a  class="" href="" target="_blank">
+            <div class="projects-img">
+              <img src="https://i.imgur.com/ikKJdtz.jpeg" alt="Stack of vintage books on a wooden desk, representing knowledge and creativity" width="1024" height="413">
+            </div>
+            </div>
 
+            <div class="project-links">
+              <a class="project-tile" href="https://jphowlett13.github.io/Tribute-Page/" target="_blank">
+                 <img src="https://i.imgur.com/8f1JYnc.png" alt="A picture of J.R.R. Tolkien and his wife">
+                <p class="tile-name">Author Tribute Page</p>
                 </a>
-                <a class="" href="" target="_blank">
 
+                <a class="project-tile" href="https://jphowlett13.github.io/Technical-Doc-Page/" target="_blank">
+                <img src="https://i.imgur.com/lw3HBKb.png">
+                <p class="tile-name">Technical Doc Page</p>
                 </a>
-                <a class="" href="" target="_blank">
 
-                </a>
-              </div>
+             <a class="project-tile" href="https://jphowlett13.github.io/Product-Landing-Page/"  target="_blank">
+                <img src="https://i.imgur.com/3nrndUf.png">
+                <p class="tile-name">Product Landing Page</p>
+                </a> 
           </div>
         </section>
 
-        <section id="contact-me">
+        <section id="work-ethic">
+          <div class="work-ethic">
+            <div class="workspace-img">
+              <img src="https://i.imgur.com/8iM432N.jpeg" alt="workspace" width="3000" height="2004">
+            </div>
+            <div class="work-ethic-text">
+              <h2>My Approach</h2>
+              <h3>Collaborative</h3>
+              <p>
+I believe in the power of collaboration to create exceptional websites. As an extension of your team, I immerse myself in your vision and goals. I work closely with you to develop a website that not only reflects your brand but exceeds your expectations.</p>
+
+              <h3>Iterative</h3>
+              <p>I take an iterative approach in my work to ensure the final result aligns with your creative vision and reflects your unique brand identity. We'll work together to refine and fine-tune your site's design, leaving no detail overlooked.</p>
+              </div>
+
+            </div>
+          
+          </section>
+
+          <section id="virtues">
+          <div class="virtues">
+            <figure>
+            <img src="https://i.imgur.com/lj6zaq0.png" alt="lightbulb" width="512" height="512">
+            <figcaption class="virtue-cap">Out of the box thinking to make your project unique</figcaption>
+            </figure>
+
+            <figure>
+            <img src="https://i.imgur.com/BtLag3g.png" width="512" height="512" alt="medal">
+            <figcaption class="virtue-cap">5+ years experience</figcaption>
+            </figure>
+
+            <figure>
+            <img src="https://i.imgur.com/PgASGY1.png" width="512" height="512" alt="diverse people holding a leaf symbolizing community and environmental unity">
+            <figcaption class="virtues-cap">Environmental and Community advocate for a more concious and inclusive world</figcaption>
+            </figure>
+            </div>
+          </section>
+
+          <section id="faq">
+            <div class="faq-inquiry">
+          <div class="faq">
+            <h4 class="faq-title">FAQ</h4>
+
+            <img class="faq-img" src="https://i.imgur.com/OjPimF9.png" width="127" height:"873" alt="a vine with leaves">
+
+            <ul class="faq-list">
+              <li>Where do we begin</li>
+              <li>What services do I provide</li>
+              <li>What are my prices</li>
+             </ul>
+           </div>
+            
+            <div class="inquiry">
+              <form action="https://www.freecodecamp.com">
+ <fieldset class="name">
+  <legend>Subscribe for Exclusive Updates</legend>
+
+  <label for="fname" class="fname">First name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+</fieldset>
+
+<fieldset class="email">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  </fieldset>
+  <fieldset class="submit">
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+              </div>
+              </div>
+           </section>
+
+        <section id="Contact-Me">
+          <div class="contact-me">
+            <a href="https://www.instagram.com/jp_howlett/" target="_blank" class="ins-contact">
+            <img src="https://i.imgur.com/7U4M5oA.png" alt="instagram-logo" width="200" height="200">
+            </a>
+
+            <a href="" target="_blank" class="linkedin-contact">
+            <img src="https://i.imgur.com/Mh3YaOl.png" alt="linkedin-logo" width="200" height="200">
+            </a>
+
+            <a id="profile-link" href="https://github.com/JPHowlett13" target="_blank" class="git-contact">
+            <img src="https://i.imgur.com/AEvTdfE.png" alt="github-logo" width="249" height="200">
+            </a>
+
+            <a href="mailto:jpsetareh@gmail.com" target="_blank" class="email-contact">
+            <img src="https://i.imgur.com/d7RHFkl.png" alt="email-logo" width="161" height="120">
+            </a>
+            
+
+            </div>
           
           </section>
 </body>
